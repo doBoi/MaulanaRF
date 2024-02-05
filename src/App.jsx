@@ -12,7 +12,7 @@ function App() {
       <Navigation ></Navigation>
       <Banner ></Banner>
       <About></About>
-      <Portofolio portos={portos}></Portofolio>
+      <Portofolio></Portofolio>
       <Contact></Contact>
     </div>
   )
