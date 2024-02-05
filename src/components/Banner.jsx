@@ -3,7 +3,7 @@ import profileBanner from "../assets/image/profilBanner.png";
 
 export default function Banner() {
   return (
-    <div className="container md:m-10 mx-auto">
+    <div className="container md:my-10 mx-auto">
       <div className="md:flex md:flew-row md:place-items-center">
         <div className="md:basis-1/2 my-5 grid md:justify-items-end justify-items-center">
           <img className="bg-zinc-500 md:h-80 md:w-80 h-32 w-32 rounded-full" src={profileBanner} alt="" />

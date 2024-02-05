@@ -1,7 +1,7 @@
 import logo from "../assets/image/DB.svg"
 export default function Navigation() {
   return (
-    <nav className="sticky top-0  container md:mx-auto py-2 flex flex-row justify-between font-mono text-lg">
+    <nav className="sticky top-0 container md:mx-auto py-2 flex flex-row justify-between font-mono text-lg">
       <div className="basis-1/2 -my-4 sm:mx-3">
         <img className="h-20  w-20 inline -me-5" src={logo} alt="logoMaul" />
         <a className="md:text-2xl text-sm" href="https://github.com/doBoi"><span className="font-extrabold"> Maul</span><span className="font-thin">ana RF</span></a>
