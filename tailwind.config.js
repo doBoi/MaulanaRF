@@ -7,6 +7,14 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  daisyui: {
+    themes: [
+      "business",
+      "fantasy"
+    ],
+  },
+  plugins: [
+    require('daisyui'),
+  ],
 }
 
