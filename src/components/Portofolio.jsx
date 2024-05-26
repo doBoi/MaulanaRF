@@ -13,12 +13,12 @@ export default function Portofolio({ portos }) {
           <div key={item.name} className="card w-80 shadow-xl image-full">
             <figure><img src={item.pict} alt={item.name} /></figure>
             <div className="card-body ">
-              <div class="collapse bg-transparent">
+              <div className="collapse bg-transparent">
                 <input type="checkbox" />
-                <div class="collapse-title text-xl text-center underline font-medium">
+                <div className="collapse-title text-xl text-center underline font-medium">
                   {item.name}
                 </div>
-                <div class="collapse-content">
+                <div className="collapse-content">
                   <p>{item.desc}</p>
                   <button className="btn btn-active btn-ghost rounded-md mt-2"><a key={item.link} href={item.link}>Github</a></button>
                 </div>
@@ -31,8 +31,4 @@ export default function Portofolio({ portos }) {
     </div>
   )
 }
-{/* <div className="p-4 rounded-md h-full border-4 border-black ">
-              <img className="m-auto rounded-lg" src={item.pict} alt="" />
-              <h1 className="text-lg font-bold ">{item.name}</h1>
-              <p className="antialiased"> {item.desc}</p>
-            </div> */}
+
