@@ -11,7 +11,7 @@ export default function Navigation() {
             <li><a href="#Home" className="hover:underline">Home</a> </li>
             <li><a href="#About" className="hover:underline">About</a> </li>
             <li><a href="#Portofolio" className="hover:underline">Portofolio</a> </li>
-            <li><a href="#Contact" className="hover:underline">Contact</a> </li>
+            <li><a href="#Social" className="hover:underline">Social</a> </li>
           </ul>
         </div>
         {/* <img className="w-16 h-16 -mr-5" src={logo} alt="logoMaul" /> */}
@@ -22,7 +22,7 @@ export default function Navigation() {
           <li><a href="#Home" className="hover:underline">Home</a> </li>
           <li><a href="#About" className="hover:underline">About</a> </li>
           <li><a href="#Portofolio" className="hover:underline">Portofolio</a> </li>
-          <li><a href="#Contact" className="hover:underline">Contact</a> </li>
+          <li><a href="#Social" className="hover:underline">Social</a> </li>
         </ul>
       </div>
       <div className="navbar-end">

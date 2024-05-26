@@ -5,7 +5,7 @@ export default function About() {
         <div className="container mx-auto">
           <h1 className="text-center text-4xl mt-5 underline underline-offset-8" >About</h1>
           <div className="flex flex-col w-full">
-            <div className=" font-mono lg:p-20 antialiased">
+            <div className="font-mono lg:p-20 p-5 antialiased">
               <p className="text-lg p-3 text-justify indent-10 leading-relax  tracking-tight mt-3">
                 Saya Maulana Ridho Farhansyah, seorang pekerja berusia 24 tahun, lulusan Sistem Informasi dari perguruan tinggi swasta pada tahun 2023. Saat ini, saya telah aktif bekerja, meskipun pekerjaan saat ini tidak sepenuhnya sejalan dengan jurusan kuliah saya. Dengan tekad yang kuat, saya bermaksud mengejar peluang karir yang lebih seimbang dengan pengetahuan dan keterampilan yang saya miliki. Saya percaya bahwa dedikasi saya akan membantu mencapai kesuksesan dan kontribusi yang berarti.
               </p>

@@ -4,7 +4,8 @@ import Navigation from "./components/Navigation";
 import Banner from "./components/Banner";
 import About from "./components/About";
 import Portofolio from "./components/Portofolio";
-import Contact from "./components/Contact";
+import Social from "./components/Social";
+import Footer from "./components/Footer";
 function App() {
   const [portos, setPortos] = useState(porto);
   return (
@@ -13,7 +14,8 @@ function App() {
       <Banner ></Banner>
       <About></About>
       <Portofolio portos={portos}></Portofolio>
-      <Contact></Contact>
+      <Social></Social>
+      <Footer></Footer>
     </>
   )
 }

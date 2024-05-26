@@ -10,7 +10,7 @@ export default function Portofolio({ portos }) {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4 justify-items-center">
         {/* card */}
         {portos.map((item) => (
-          <div className="card w-80 shadow-xl image-full">
+          <div key={item.name} className="card w-80 shadow-xl image-full">
             <figure><img src={item.pict} alt={item.name} /></figure>
             <div className="card-body ">
               <div class="collapse bg-transparent">
