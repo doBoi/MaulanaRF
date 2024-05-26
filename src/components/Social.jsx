@@ -1,14 +1,10 @@
-import { useRef } from 'react';
 import Github from "../assets/image/Github.svg";
 import facebook from "../assets/image/facebook.svg";
 import Instagram from "../assets/image/Instagram.svg";
-import LinkedIn from "../assets/image/LinkedIn.svg";
+import LinkedIn from "../assets/image/Linkedin.svg";
 import X from "../assets/image/X.png";
 
-
 export default function Social() {
-
-
   return (
     <div id='Social' className="h-screen">
       <div className="container mx-auto py-2 h-full">

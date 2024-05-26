@@ -1,4 +1,3 @@
-import logo from "../assets/image/DB.svg"
 export default function Navigation() {
   return (
     <div className="navbar bg-base-100 sticky top-0 z-30">
