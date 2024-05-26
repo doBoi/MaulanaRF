@@ -2,7 +2,7 @@ import Github from "../assets/image/Github.svg";
 import facebook from "../assets/image/facebook.svg";
 import Instagram from "../assets/image/Instagram.svg";
 import LinkedIn from "../assets/image/Linkedin.svg";
-import X from "../assets/image/X.png";
+import X from "../assets/image/x.png";
 
 export default function Social() {
   return (
