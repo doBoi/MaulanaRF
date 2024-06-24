@@ -2,6 +2,7 @@ import dafilmLaravel from '../assets/image/porto/Dafilm-laravel.png'
 import dafilmReact from '../assets/image/porto/Dafilm-react.png'
 import laracamp from '../assets/image/porto/Laracamp.png'
 import motorreport from '../assets/image/porto/MotorReport.png'
+import Universalbubut from '../assets/image/porto/Universalbubut.png'
 export default function porto() {
   const datas = [
     {
@@ -28,7 +29,12 @@ export default function porto() {
       desc: 'Motor Report - Sebuah Website Aplikasi yang membantu mendata hasil pekerjaan pada divisi Motor ESP.',
       link: "https://github.com/doBoi/MotorReport.git",
       pict: motorreport
-
+    },
+    {
+      name: "Universal Teknik Bubut",
+      desc: 'Universal Teknik Bubut - Sebuah Website Untuk Memperkenalkan serta mempromosikan Bengkel Bubut.',
+      link: "https://universalbubut.vercel.app/",
+      pict: Universalbubut
     },
   ]
   return datas

@@ -22,7 +22,7 @@ export default function Social() {
             <img className="mask mask-squircle w-28 h-auto p-3" src={Instagram} />
           </a>
 
-          <a href="www.linkedin.com/in/marifa13">
+          <a href="https://www.linkedin.com/in/marifa13">
             <img className="mask mask-squircle w-28 h-auto p-3" src={LinkedIn} />
           </a>
 

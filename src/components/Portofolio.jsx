@@ -20,7 +20,7 @@ export default function Portofolio({ portos }) {
                 </div>
                 <div className="collapse-content">
                   <p>{item.desc}</p>
-                  <button className="btn btn-active btn-ghost rounded-md mt-2"><a key={item.link} href={item.link}>Github</a></button>
+                  <button className="btn btn-active btn-ghost rounded-md mt-2"><a key={item.link} href={item.link}>{item.name}</a></button>
                 </div>
               </div>
             </div>
